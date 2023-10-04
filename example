@@ -1,0 +1,72 @@
+// Creating Class, Interface, Members as FrontEnd, Middleware Api, Backend
+
+
+// example of simple class in C#
+public class MyClass
+{
+    public string MyProperty {get; set; }
+}
+// IMyInterface.cs
+public interface IMyInterface
+{
+    void MyMethod();
+}
+// Adding Members
+public class MyClass
+{
+    public string MyProperty { get; set; }
+    public void MyMethod()
+    {
+
+    }
+}
+// Custom Middleware class
+
+using Microsoft.AspNetCore.Http;
+using System.Threading.Tasks;
+
+public class MyCustomMiddleware
+{
+    private readonly RequestDelegate _next;
+    public MyCustomMiddleware (RequestDelegate next)
+    {
+        -next = next;
+    }
+    public async Task InvokeAsync (HttpContext context)
+    {
+        //call next middleware in pipeline
+        await -next(context);
+    }
+}
+// Register your custom middleware in the startup.cs file:
+
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    app.UseMiddleware<MyCustomMiddleware>();
+}
+
+// CLASS WITH FIELDS,PROPERTIES AND METHODS IN C#
+
+public class MyClass
+{
+    private int myField;
+    public int MyProperty { get; set;  }
+    public MyClass(int initialValue)
+    {
+        myField = initialValue;
+    }
+    public void MyMethod()
+    {
+        // code for method
+    }
+}
+
+// Implementing interface in c#
+
+public class MyImplementation : IMyInterface
+{
+    public void MyMethod()
+    {
+        //implementation for the interface method
+    }
+}
