@@ -1,0 +1,14 @@
+class Person
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+
+    public void getDetails()
+    {
+        Console.WriteLine($"Name:  {Name}, Age:  {Age}");
+    }
+}
+Person person1 = new Person();
+person1.Name = "John";
+person1.Age = 30;
+person1.getDetails();
