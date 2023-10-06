@@ -1,0 +1,133 @@
+	
+Topics for improvement
+1.       Object Oriented Programming concepts
+
+2.       SOLID Principles
+
+3.       General Development Skills :
+
+·       Concepts of Git-version control 
+
+·        HTTP/HTTPS protocol + TLS/SSL
+
+·       Data structures and Algorithms
+
+4.       Design Patterns
+
+·       Creational, Structural and behavioral (some popular patterns e.g. singleton, factory, strategy, adapter etc.)
+
+5.       C# : 
+
+·       Learn the basics of C# (good to be updated with latest version C# 11)
+
+·         Learn .NET 6 (LTS)
+
+·         Learn donet CLI
+
+6.       ASP.NET core concepts
+
+·         MVC
+
+·         REST
+
+·       Web API
+
+·         Application settings and Configurations
+
+·         Middleware
+
+·         Filters and Attributes
+
+7.       Dependency Injection (DI)
+
+·       DI Containers : Microsoft extensions dependency injection
+
+·         Life Cycles : Scoped, Transient, Singleton
+
+8.       SQL Fundamentals
+
+·       Fundamentals about database design and SQL syntax
+
+·         Stored Procedures and Functions
+
+·         Constraints
+
+·         Triggers
+
+9.       Understanding of Object Relational Mapping ( ORM )
+
+·       Some understanding of Entity Framework core (desirable) : Code first , Migrations, Lazy loading, Eager loading, explicit loading
+
+·          Understanding of Dapper is advantage
+
+10.   Relational Database : SQL Server
+
+11.   Log Frameworks
+
+·       NLog
+
+12.   Real time communication concepts
+
+·       SignalR Core
+
+·       Web sockets
+
+13.   API Clients and Communications
+
+·       REST 
+
+·       REPR Pattern (Request, an Endpoint and a Response)
+
+14.   Basic understanding of Microservices
+
+15.   Understanding Cloud architecture and application
+
+16.   Testing
+
+·       Unit testing : 1. use any frameworks:  xUnit or nUnit  2. Mocking
+
+·       Integration testing (concepts)
+
+·       Performance testing (concepts)
+
+17.   Understanding of continuous integration and delivery CI/CD
+
+18.   Useful Tools & Concepts: Postman, swagger, VS 2022 IDE, VSCode, JiRA, Agile, Polly.NET, FluentValidation
+
+19.   Understanding of Web applications, window applications and concepts
+
+20.   Angular concept, architecture for building single-page client applications using HTML
+
+21.   Javascripts  & TypeScripts
+
+22.   Jquery
+
+23.   Certificates of learnings for above topics is advantage
+
+Guidelines for learning and assignments:
+
+·       For each learning, do the practices and maintain work records
+
+·       Learning topics should be completed in given timeline
+
+·       You should interact with mentor on regular basis and update the progress
+
+·       Programing should be done with proper quality and standards
+
+·       Don’t use output from AI tools but learn and practice the basics
+
+·       Create any two applications based on real world usages and use concepts and tech stacks that you have learnt
+
+·       Developed solution should be complied, tested and deployable
+
+·       Code should be documented
+
+·       Punctuality in work and assignments
+
+·       Reach to  mentor in case have any technical challenges
+
+·       Work on use cases asked by your mentor. Use cases will be on your learning modules.
+
+ 
+Observations or Previous Discussions	
+Needs improvement of .NET / Microsoft skill sets , Frontend programing technologies and become  handson in programming
