@@ -1,0 +1,26 @@
+Creating a Complete .NET Project with a User Interface (UI) , an API , A Database and unit tests 
+creating a simplified .net project using ASP .NET Core for the API , Entity Framework Core for the database , and a basic UI using ASP .NET Core Rajor Pages.
+
+PROJECT STRUCTURE:
+
+Solution : Creating a New Visual Studio Solution For  Project
+
+API PROJECT:
+create a new asp.net core web api project
+this will handle api end points and communicate with the database
+
+UI Project:
+create a new asp.net core rajor pages project
+this project will serve as the user interface for your application
+It can include views, controllers, and models for the UI
+
+DATABASE PROJECT:
+create a class library project for your database using entity framework core.
+define your database models and configure Db context
+use EF Migrations for create and manage the database schema
+
+UNIT TEST PROJECT:
+tests to cover the critical functionality of your api , database operations and other logic, mock external dependencies where needed
+
+CONFIGURATION :
+Use the Appsetting.json file or environment variables for configuration settings like connection strings , api keys , other settings
