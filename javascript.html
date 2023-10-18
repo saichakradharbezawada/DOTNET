@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Example</title>
+</head>
+<body>
+    <h1>JavaScript Hands-On Example</h1>
+    <p id="demo">Click the button to change this text.</p>
+    <button id="changeTextButton">Click me!</button>
+
+    <script>
+        
+        const demoText = document.getElementById("demo");
+        const button = document.getElementById("changeTextButton");
+
+        // Define A functionnto change the textnwhen button is clicked
+        function changeText() {
+            demoText.innerHTML = "Text changed by JavaScript!";
+        }
+
+
+        // Attach an event listener to the button to call the changetext function when clicked
+        button.addEventListener("click", changeText);
+    </script>
+</body>
+</html>
